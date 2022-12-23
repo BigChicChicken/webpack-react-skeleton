@@ -1,0 +1,44 @@
+{
+  "name": "webpack-react-skeleton",
+  "homepage": "https://bigchicchicken.github.io/webpack-react-skeleton",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --open --https --port 443",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "autoprefixer": "^10.4.13",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.10",
+    "gh-pages": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "postcss": "^8.4.20",
+    "postcss-loader": "^7.0.2",
+    "prettier": "^2.7.1",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.9.3",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "i18next": "^22.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.0.0",
+    "tailwindcss": "^3.2.4"
+  }
+}
